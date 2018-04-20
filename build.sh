@@ -11,7 +11,7 @@ RESET=$(tput sgr0)
 BOLD=$(tput bold)
 
 # Image sizes, feel free to change
-declare -a sizes=("1500x750" "1200x600" "1000x500" "840x600" "420x600")
+declare -a sizes=("1500x750" "1200x1200" "1000x500" "600x600" "420x620")
 
 # Count images in root directory
 numFiles=( *.{png,jpeg,jpg} )
